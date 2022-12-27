@@ -2,16 +2,10 @@
 
 namespace App\Services\User\Providers;
 
-use Illuminate\Support\ServiceProvider;
 use App\Services\User\UserServices;
+use Illuminate\Support\ServiceProvider;
 use App\Repositories\User\UserInterface;
 use Illuminate\Contracts\Support\DeferrableProvider;
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 class UserServicesProvider extends ServiceProvider implements DeferrableProvider
 {
